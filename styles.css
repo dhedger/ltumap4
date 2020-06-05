@@ -57,7 +57,7 @@ body {
       color: var(--white);
       text-transform: uppercase;
       overflow: hidden;
-      font-family: monospace;
+      font-family: roboto;
       transition: width 1s linear;
       display: none;
   }
