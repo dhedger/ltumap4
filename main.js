@@ -131,11 +131,11 @@ var transformRequest = (url, resourceType) => {
             source:'csvData',
             filter:['!', ['has', 'point_count']],
             paint:{
-                'circle-radius':8,
+                'circle-radius':5,
                 'circle-color': [
                   'match',
                   ['get', 'TYPE'],
-                  'TYPEA',
+                  'Safety (and Environmental) Interaction',
                   colors[0],
                   'TYPEB',
                   colors[1],
